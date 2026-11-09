@@ -1,0 +1,57 @@
+# Build directories
+build/
+data
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Compiled files
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# IDE files
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+.cache/
+.clangd
+.devcontainer/
+
+# Test outputs
+Testing/
+
+# Google Test
+_deps/
+lib/
+external/
+
+# Output files
+*.txt
+!CMakeLists.txt
+log.txt
+survivors.txt
+
+# Compile commands
+compile_commands.json
+
+# OS files
+.DS_Store
+Thumbs.db
